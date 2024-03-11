@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cardo", serif;
+}
+body{
+    color: #1d1d1d;
+    background-color: rgba(234,232,232,255);
+}
+
+.homePage {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 41rem;
+    background-image: url(./images/scribble_lightest_2.png), url(./images/scribble_dark_7.png);
+    background-position: left top 249px, right bottom 19px;
+    background-repeat: no-repeat;
+    background-size: 42% 115%, 12% 40%;
+}
+.home {
+    position: relative;
+    margin: 0% 0% 4% 0%;
+    left: 5rem;
+    width: 88%;
+    z-index: 1;
+}
+
+.heading
+{
+    display: inline-block;
+    width: 96%;
+    margin: 4% 1%;
+}
+
+
+.navigation {
+    float: left;
+    margin-top: 1%;
+    width: 47%;
+}
+.navigation a {
+    text-decoration: none;
+    padding: 7%;
+    font-size: 121%;
+    color: grey;
+}
+.navigation a:hover{
+    color:black ;
+}
+.contact {
+    float: right;
+    padding: 1%;
+    width: 19%;
+}
+.contact button {
+    padding: 5% 16%;
+    background-color: transparent;
+    font-weight: 700;
+    width: 100%;
+    font-size: 23px;
+    border: 5px solid black;
+}
+
+.contents{
+    position: relative;
+    display: inline-block;
+    margin: 1%;     
+}
+.contentsText{
+    width: 43%;
+    padding: 1%;
+}
+.contentsText h3{
+    font-size: 78px;
+    line-height: 78px;
+}
+.contentsText p:first-child{
+    margin-top: 4%;
+    font-size: 15px;
+    color: #6a6969;
+}
+
+#reverseTicket{
+    margin-top: 4%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    width: 41%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.homeImage {
+    position: absolute;
+        top: 0%;
+        right: 2%;
+        width: 50%;
+}
+
+.homeImage img{
+    width: 100%;
+    height: 23rem;
+    padding: 3% 1% 1% 1%;
+}
+
+
+.travelLogs {
+    background-color: black;
+    color: white;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-image: url('./images/scribble_light.png'), url('./images/scribble_light_2.png');
+    background-repeat: no-repeat;
+    background-position: left top 66px, right bottom 61px;
+}
+.travelLogContent {
+    margin: auto;
+    width: 34%;
+    padding: 3%;
+    text-align: center;
+    font-size: 22px;
+}
+.travelLogs h1{
+    line-height: 43px;
+}
+.travelLogs p {
+    font-size: 13px;
+    margin: 2%;
+    line-height: 18px;
+}
+.travelLogs button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 7px;
+    margin: 6% 2%;
+}
+
+.travelContainer {
+    position: relative;
+    background-image: url(./images/scribble_dark_6.png), url(./images/scribble_dark_5.png);
+    background-repeat: no-repeat;
+    background-position: left top 48px, right bottom -8px;
+    background-color: rgba(234, 232, 232, 255);
+    background-size: 3% 86%, 3% 50%;
+}
+.blankSpace{
+    width: 100%;
+    height: 5rem;
+}
+.travelInnerContainer {
+    position: relative;
+    margin: auto;
+    width: 91%;
+    height: 32rem;
+}
+.leftImage, .middleImage, .rightImage {
+    position: absolute;
+    width: 27%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.leftImage{
+    left: 4%;
+}
+
+.middleImage{
+    left: 36%;
+}
+.rightImage{
+    left: 68%;
+}
+.travelInnerContainer img {
+    width: 100%;
+    height: 15rem;
+    padding-bottom: 5%;
+}
+.travelInnerContainer p {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.underline{
+    border: 2px solid black;
+    width: 12%;
+    margin: 3% 0%;
+}
+.airplaneContainer {
+    background-image: url(./images/scribble_dark_4.png), url(./images/scribble_lightest.png);
+    background-position: 80px 700px, right top 200px;
+    background-repeat: no-repeat;
+    background-size: 346px 109px, 200px;
+    position: relative;
+}
+.blank{
+    width: 100%;
+    height: 20rem;
+}
+.airplaneText, .airplane{
+    margin: auto;
+}
+
+.airplane{
+    width: 5%;
+}
+
+.airplaneText {
+    width: 56%;
+    font-size: 56px;
+}
+
+#airplaneTextPara {
+    margin-top: 8%;
+    font-size: 21px;
+    font-weight: 1000;
+    text-align: center;
+}
+.airplaneText p:first-child{
+    font-size: 97px;
+    font-weight: 1000;
+    line-height: 95%;
+    margin-top: 7%;
+}
+
+.airplane img{
+    width: 49px;
+    height: 56px;
+}
+.blankSpaceContainer{
+    width: 100%;
+    height: 10rem;
+}
+.twoImageContainer{
+    margin: 5% auto;
+    height: 33rem;
+    width: 85%;
+}
+.leftImageContainer{
+    width: 35%;
+    height: 32rem;
+}
+.leftImageContainer img:first-child{
+    width: 100%;
+    height: 100%;
+}
+#tape{
+    position: absolute;
+    left: 75px;
+    bottom: 177px;
+    height: 12rem
+}
+.leftImageContainer, .right,.rightTextHeading, .rightTextPara{
+    display: inline-block;
+}
+.leftImageContainer, .rightTextHeading{
+    float: left;
+}
+.right {
+    width: 58%;
+    margin-left: 7%;
+}
+.rightText{
+    font-weight: bold;
+}
+.rightTextHeading {
+    width: 40%;
+    padding: 2%;
+    font-size: 21px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+.rightTextPara {
+    width: 60%;
+    font-size: 15px;
+    padding: 4% 0%;
+}
+.rightArrow{
+    float: right;
+}
+
+.innerParagraph {
+    width: 100%;
+    padding: 1%;
+}
+.innerParagraph p{
+    padding-bottom: 5%;
+}
+
+.explore{
+    background-color: black;
+    color: white;
+    background-image: url(./images/scribble_light.png);
+    background-repeat: no-repeat;
+    background-position: left bottom -10px;
+    background-size: 32%;
+}
+
+.exploreText, .exploreImage{
+    display: inline-block;
+}
+
+.exploreText{
+    width: 37%;
+    padding-left: 9%;
+}
+
+.exploreImage{
+    width: 54%;
+    float: right;
+}
+.exploreImage img{
+    height: 25rem;
+    width: 100%;
+}
+.exploreTextHead{
+    padding-bottom: 8%;
+    font-size: 21px;
+}
+.exploreTextPara{
+    margin-top: 3%;
+    padding: 2%;
+    font-size: 13px;
+}
+.exploreInnerContainer{
+    padding: 10% 0%;
+}
+.addPost{
+    width: 82%;
+    margin: auto;
+}
+.addPostLeft, .addPostRight{
+    display: inline-block;
+}
+.addPostLeft{
+    width: 60%;
+}
+
+.addPostRight{
+    width: 40%;
+}
+
+.addPostHeading{
+    line-height: 62px;
+    padding: 11% 0%;
+    font-size: 37px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.addText, .addIcon{
+    display: inline-block;
+}
+.addText{
+    font-size: 15px;
+    padding: 2% 0%;
+}
+.addIcon{
+    width: 14%;
+}
+.addIcon i{
+    font-size: 23px;
+    padding: 20%;
+}
+.addText{
+    float: left;
+}
+
+.addPostRight, .addIcon{
+    float: right;
+}
+
+.addPostRight{
+    width: 34%;
+    margin: 6% 0%;
+}
+.addPostRight img{
+    width: 100%;
+}
+
+.addPostTable{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    overflow: auto;
+    margin-top: 1%;
+}
+
+.addPostTableContent{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    overflow: auto;
+}
+.addPost::after{
+    clear: both;
+}
+.customerFeedback{
+    margin-top: 2%;
+    background-image: url(./images/scribble_dark_2.png), url(./images/scribble_dark_3.png);
+    background-repeat: no-repeat;
+    background-position: left top 29px, right bottom;
+    background-size: 21rem 9rem, 19rem;
+}
+.FeedbackHeading {
+    text-align: center;
+    font-size: 32px;
+    width: 47%;
+    margin: auto;
+    font-weight: bold;
+}
+.feedbackCard{
+    position: relative;
+    width: 82%;
+    margin:  5% auto;
+}
+#leftArrowButton, #rightArrowButton{
+    height: 51px;
+    width: 65px;
+    position: absolute;
+    top: 142px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+#leftArrowButton{
+    left: -26px;
+}
+#leftArrowButton i , #rightArrowButton i{
+    font-size: 24px;
+}
+#rightArrowButton{
+    right: -26px;
+}
+.leftCard, .rightCard, .middleCard{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+.feedbackCard i{
+    z-index: 1;
+    position: absolute;
+}
+
+.leftCard > img , .rightCard > img, .middleCard > img{
+    padding: 12% 9%;
+}
+
+.leftCard > h1 , .rightCard > h1, .middleCard > h1{
+    font-size: 20px;
+}
+
+.leftCard > p , .rightCard > p, .middleCard > p{
+    font-size: 13px;
+    padding: 6%;
+}
+.beUpdated{
+    width: 79%;
+    margin: auto;
+    padding: 10% 0%;
+}
+.beUpdatedForm, .beUpdatedImage{
+    display: inline-block;
+}
+.beUpdatedForm {
+    width: 37%;
+}
+.beUpdatedImage{
+    margin-left: 6%;
+    width: 56.5%;
+}
+.beUpdatedImage img{
+    width: 100%;
+    height: 35rem;
+}
+.beUpdatedForm h1{
+    font-size: 68px;
+    margin-bottom: 9%;
+}
+.beUpdated input{
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 3% 0%;
+    border-radius: 9px;
+    height: 41px;
+    background-color: transparent;
+}
+.beUpdated textarea{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: transparent;
+    padding: 2%;
+}
+
+#submitButton{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 56px;
+    border-radius: 7px;
+    font-size: 23px;
+    margin-top: 8%;
+}
+
+.footer{
+    background-color: rgba(197,197,197,255);
+    background-image: url(./images/scribble_dark.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 33px;
+    background-size: 286px;
+}
+.innerFooter{
+    padding-top: 6%;
+}
+.leftFooter, .rightFooter{
+    display: inline-block;
+}
+.leftFooter{
+    width: 32%;
+    font-size: 28px;
+    line-height: 52px;
+    margin-bottom: 2%;
+    float: left;
+    padding: 2% 0% 0% 9%;
+}
+.blankSpaceFooter{
+    height: 2rem;
+}
+.rightFooter{
+    width: 68%;
+    float: right;
+}
+.footerHeading{
+    width: 100%;
+    margin: 3% 0%;
+    padding-left: 2%;
+}
+.footerLinks{
+    font-size: 17px;
+    width: 100%;
+
+}
+.links{
+    display: inline-block;
+    padding: 2%;
+    width: 22%;
+}
+.links a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 2%;
+}
+.copyrightInfo{
+    font-weight: bold;
+    margin-top: 3%;
+    padding: 3% 34%;
+    overflow: overlay;
+}
